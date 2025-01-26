@@ -38,28 +38,28 @@ pip install pyttsx3 speechrecognition pywhatkit pyautogui opencv-python wikipedi
 
 ## How It Works
 
-1. **Initialization**: 
+### 1. **Initialization**:
    - The assistant is initialized using the `pyttsx3` library for text-to-speech functionality and `speech_recognition` for converting speech into text.
 
-2. **Voice Interaction**: 
+### 2. **Voice Interaction**:
    - Upon starting the program, the assistant greets the user based on the time of day and asks what it can do for them.
 
-3. **Listening for Commands**: 
+### 3. **Listening for Commands**:
    - The assistant continuously listens for voice commands and responds accordingly. It is capable of handling a variety of tasks, including:
 
-   - **Searches on YouTube or Google**: 
+   - **Searches on YouTube or Google**:
      - It performs searches based on the user’s spoken input, either on YouTube or Google.
 
-   - **Opens Websites**: 
+   - **Opens Websites**:
      - It can launch websites like Wikipedia, Google, and others as per the user’s request.
 
-   - **Plays Music**: 
+   - **Plays Music**:
      - It plays music from a predefined directory specified by the user.
 
-   - **Controls System**: 
+   - **Controls System**:
      - The assistant can execute system commands like shutdown, restart, or lock the system.
 
-4. **Handling Commands**: 
+### 4. **Handling Commands**:
    - The assistant processes a wide range of commands such as:
      - Opening applications like a browser or Notepad
      - Writing text in Notepad
