@@ -19,30 +19,23 @@ This project is a simple voice assistant built using Python, integrating various
   - It uses `speech_recognition` for converting speech into text.
 
 - **Voice Interaction**:
-  - Upon starting the program:
-    - The assistant greets the user based on the time of day.
-    - It asks the user what it can do for them.
+  - Upon starting the program: The assistant greets the user based on the time of day. It asks the user what it can do for them.
 
 - **Listening for Commands**:
   - The assistant continuously listens for voice commands and responds accordingly.
-  - It can handle various tasks including:
-    - **Searches on YouTube or Google**:
-      - It performs searches based on the user’s spoken input on YouTube or Google.
-    - **Opens Websites**:
-      - It can launch websites like Wikipedia, Google, and others as requested by the user.
-    - **Plays Music**:
-      - It plays music from a predefined directory specified by the user.
-    - **Controls System**:
-      - The assistant can execute system commands such as:
+- It can handle various tasks including:
+- **Searches on YouTube or Google**: It performs searches based on the user’s spoken input on YouTube or Google.
+  - **Opens Websites**: It can launch websites like Wikipedia, Google, and others as requested by the user.
+  - **Plays Music**: It plays music from a predefined directory specified by the user.
+  - **Controls System**: The assistant can execute system commands such as:
         - Shutdown
         - Restart
         - Lock the system
 
-- **Handling Commands**:
-  - The assistant processes a wide range of commands such as:
-    - Opening applications like a browser or Notepad.
-    - Writing text in Notepad.
-    - Taking screenshots and saving them.
+- **Handling Commands**: The assistant processes a wide range of commands such as:
+  - Opening applications like a browser or Notepad.
+  - Writing text in Notepad.
+  - Taking screenshots and saving them.
 
 
 ## Prerequisites
